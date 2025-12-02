@@ -1,0 +1,26 @@
+/* Här ligger all din CSS – kopierad rakt av från din gamla HTML */
+
+body { margin:0; font-family: 'Segoe UI', Tahoma, sans-serif; background:#eaeaea; color:#222; text-align:center; }
+header { background:#1a2b4c; color:white; padding:20px; font-size:28px; font-weight:bold; cursor:pointer; }
+header:hover { background:#0f1c33; }
+
+.container { max-width: 950px; margin: 40px auto; padding: 20px; }
+.card { background:white; border-radius:18px; padding:30px; margin-bottom:25px; box-shadow:0 6px 18px rgba(0,0,0,0.1); }
+h1 { font-size:30px; margin-bottom:15px; color:#1a2b4c; }
+p { font-size:18px; margin-bottom:20px; color:#444; }
+button { padding:12px 22px; border:none; border-radius:12px; background:#1a2b4c; color:white; font-weight:bold; font-size:16px; cursor:pointer; margin:6px; transition:0.2s; }
+button:hover { background:#0f1c33; transform:scale(1.05); }
+#map { height:600px; width:100%; margin-top:15px; border-radius:12px; display:none; }
+
+#topBar { display:flex; justify-content:space-between; align-items:center; font-size:18px; margin-bottom:10px; color:#1a2b4c; font-weight:bold; }
+
+.quotes { margin-top:30px; font-size:18px; color:#333; }
+.quote { margin-bottom:25px; font-style:italic; }
+.quote span { display:block; margin-top:8px; font-family:'Brush Script MT', cursive; font-size:20px; color:#1a2b4c; }
+
+#clubGame { display:none; }
+#clubInput { padding:12px; font-size:16px; border:2px solid #1a2b4c; border-radius:10px; margin-top:15px; width:70%; outline:none; }
+#clubClue, #clubResult { margin-top:18px; font-size:18px; font-weight:bold; color:#1a2b4c; }
+
+.leaflet-popup-content { text-align: center; font-size: 14px; }
+.leaflet-popup-content img { display: block; margin: 8px auto 0; width: 100%; max-width: 220px; border-radius: 10px; }
